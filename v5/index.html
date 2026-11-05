@@ -1,0 +1,491 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Zimmermann &amp; Bauman - generalne wykonawstwo, Warszawa</title>
+<meta name="description" content="Zimmermann & Bauman sp. z o.o. - generalne wykonawstwo budynków mieszkalnych i niemieszkalnych. Warszawa i Mazowsze.">
+<meta name="theme-color" content="#f5f3ee">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%2313202d'/%3E%3Crect x='6' y='19' width='20' height='3' fill='%23b8893a'/%3E%3C/svg%3E">
+<link rel="preload" href="fonts/instrument-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" as="image" type="image/avif" media="(max-width: 767px)" imagesrcset="img/hero-m-800.avif 800w, img/hero-m-1200.avif 1200w" imagesizes="100vw">
+<link rel="preload" as="image" type="image/avif" media="(min-width: 768px)" imagesrcset="img/hero-1200.avif 1200w, img/hero-1800.avif 1800w, img/hero-2400.avif 2400w" imagesizes="(min-width: 1760px) 1600px, 92vw">
+<style>
+@font-face{font-family:"Instrument Sans";font-style:normal;font-weight:400 600;font-display:swap;src:url(fonts/instrument-sans-latin-ext.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:"Instrument Sans";font-style:normal;font-weight:400 600;font-display:swap;src:url(fonts/instrument-sans-latin.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"IS Fallback";src:local("Arial");size-adjust:101%;ascent-override:92%;descent-override:24%;line-gap-override:0%}
+
+:root{
+  --bg:#f5f3ee;
+  --paper:#fbfaf7;
+  --ink:#13202d;
+  --ink-2:#2b3846;
+  --muted:#5d6670;
+  --line:#d9d5cc;
+  --line-2:#c9c4b8;
+  --accent:#a87a2e;
+  --pad:clamp(16px,4.2vw,64px);
+  --max:1440px;
+  --f:"Instrument Sans","IS Fallback",Arial,sans-serif;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth;scroll-padding-top:84px}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--f);font-size:17px;line-height:1.6;font-weight:400;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;overflow-x:clip}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit}
+h1,h2,h3{font-weight:500;margin:0;letter-spacing:-.022em;line-height:1.08;text-wrap:balance}
+p{margin:0}
+.wrap{max-width:var(--max);margin:0 auto;padding-inline:var(--pad)}
+@media (min-width:1760px){:root{--max:1680px}}
+@media (min-width:2200px){body{zoom:1.18}}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+
+/* ---------- header ---------- */
+.hdr{position:relative;z-index:20;background:var(--bg)}
+@media (min-width:900px){.hdr{position:sticky;top:0;transition:box-shadow .3s}.hdr.is-scrolled{box-shadow:0 1px 0 var(--line)}}
+.hdr .wrap{display:flex;align-items:center;justify-content:space-between;gap:24px;height:68px}
+@media (min-width:900px){.hdr .wrap{height:80px}}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;min-width:0}
+.brand svg{flex:none;width:30px;height:30px}
+.brand b{display:block;font-weight:600;font-size:16.5px;letter-spacing:-.012em;line-height:1.15;white-space:nowrap}
+.brand small{display:block;font-size:12.5px;color:var(--muted);line-height:1.2;margin-top:2px;white-space:nowrap}
+.nav{display:none}
+@media (min-width:1024px){
+  .nav{display:flex;align-items:center;gap:clamp(18px,2.2vw,36px);font-size:15px}
+  .nav a{text-decoration:none;color:var(--ink-2);padding:6px 0;background:linear-gradient(var(--accent),var(--accent)) 0 100%/0 1px no-repeat;transition:background-size .3s}
+  .nav a:hover{background-size:100% 1px}
+}
+.hdr-cta{flex:none;white-space:nowrap}
+.hdr-m{font-size:15px;font-weight:500;text-decoration:none;border-bottom:1px solid var(--accent);padding-bottom:2px;white-space:nowrap}
+@media (min-width:1024px){.hdr-m{display:none}}
+.hdr .btn{display:none}
+@media (min-width:1024px){.hdr .btn{display:inline-flex}}
+
+/* ---------- buttons ---------- */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;height:50px;padding:0 24px;background:var(--ink);color:#fff;text-decoration:none;font:500 15.5px/1 var(--f);letter-spacing:.005em;border:0;border-radius:2px;cursor:pointer;transition:background-color .25s}
+.btn:hover{background:#24364a}
+.btn svg{width:16px;height:16px;transition:transform .25s}
+.btn:hover svg{transform:translateX(3px)}
+.btn-sm{height:42px;padding:0 18px;font-size:14.5px}
+.lnk{display:inline-flex;align-items:center;gap:10px;font-size:15.5px;font-weight:500;text-decoration:none;color:var(--ink);border-bottom:1px solid var(--line-2);padding-bottom:3px;transition:border-color .25s}
+.lnk:hover{border-color:var(--ink)}
+.lnk svg{width:17px;height:17px;flex:none;color:var(--muted)}
+
+/* ---------- hero ---------- */
+.hero{padding-top:clamp(20px,4.2vw,72px)}
+.hero-top{display:grid;gap:20px}
+.hero h1{font-size:clamp(33px,4.5vw,72px);line-height:1.05;letter-spacing:-.03em;max-width:17ch}
+.hero-side{display:grid;gap:22px;align-content:end}
+.hero-lead{font-size:clamp(16px,1.25vw,18.5px);line-height:1.58;color:var(--ink-2);max-width:40ch}
+.hero-act{display:flex;flex-wrap:wrap;align-items:center;gap:14px 28px}
+@media (max-width:599px){.hero-act .btn{width:100%}}
+@media (min-width:900px){
+  .hero-top{grid-template-columns:minmax(0,8fr) minmax(0,4fr);column-gap:clamp(40px,5vw,110px);align-items:end}
+  .hero h1{max-width:none}
+}
+.hero-media{margin-top:clamp(28px,4vw,64px);position:relative}
+.hero-media img{width:100%;aspect-ratio:4/3;object-fit:cover}
+@media (min-width:768px){.hero-media img{aspect-ratio:2.2/1}}
+.facts{display:flex;flex-wrap:wrap;gap:6px 0;justify-content:space-between;align-items:baseline;padding:14px 0 0;font-size:13.5px;color:var(--muted);border-bottom:1px solid var(--line);padding-bottom:14px}
+.facts ul{display:flex;flex-wrap:wrap;gap:4px 0;margin:0;padding:0;list-style:none}
+.facts li+li::before{content:"";display:inline-block;width:4px;height:4px;background:var(--accent);margin:0 12px 2px;vertical-align:middle}
+@media (max-width:599px){.facts{font-size:13px}.facts li:first-child,.facts li:last-child{display:none}.facts li+li::before{display:none}}
+
+/* ---------- sections ---------- */
+.sec{padding-block:clamp(72px,9vw,150px)}
+.sec-head{display:grid;gap:16px;margin-bottom:clamp(36px,5vw,72px)}
+.sec-head h2{font-size:clamp(28px,3.2vw,46px)}
+.sec-head p{color:var(--muted);max-width:52ch;font-size:16.5px}
+@media (min-width:900px){.sec-head{grid-template-columns:minmax(0,5fr) minmax(0,6fr);column-gap:clamp(40px,6vw,120px);align-items:end}.sec-head p{justify-self:start}}
+
+/* statement */
+.why{display:grid;gap:28px}
+.why h2{font-size:clamp(20px,1.6vw,23px);font-weight:500;letter-spacing:-.01em}
+.why-main{font-size:clamp(23px,2.45vw,36px);line-height:1.32;letter-spacing:-.018em;font-weight:400;max-width:30ch;text-wrap:pretty}
+.why-sub{margin-top:clamp(24px,3vw,40px);display:grid;gap:18px;color:var(--muted);font-size:16.5px;max-width:62ch}
+@media (min-width:900px){.why{grid-template-columns:minmax(0,3fr) minmax(0,8fr);column-gap:clamp(40px,6vw,120px)}.why-sub{grid-template-columns:1fr 1fr;column-gap:40px;max-width:none}}
+
+/* services rows */
+.rows{border-top:1px solid var(--ink)}
+.row{display:grid;gap:18px;padding:28px 0 32px;border-bottom:1px solid var(--line)}
+.row h3{font-size:clamp(23px,2.1vw,31px);letter-spacing:-.02em}
+.row p{color:var(--ink-2);font-size:16.5px;max-width:44ch}
+.row ul{margin:16px 0 0;padding:0;list-style:none;color:var(--muted);font-size:14.5px;display:grid;gap:6px}
+.row li{padding-left:18px;position:relative}
+.row li::before{content:"";position:absolute;left:0;top:.72em;width:9px;height:1px;background:var(--accent)}
+.row figure{margin:0;overflow:hidden;background:#e6e2d9}
+.row figure img{width:100%;aspect-ratio:3/2;object-fit:cover;transition:transform .9s cubic-bezier(.2,.7,.2,1)}
+@media (hover:hover){.row:hover figure img{transform:scale(1.035)}}
+@media (min-width:900px){
+  .row{grid-template-columns:minmax(0,3fr) minmax(0,4fr) minmax(0,5fr);column-gap:clamp(28px,3.4vw,64px);padding:36px 0 40px;align-items:start}
+  .row figure{order:3}
+}
+@media (max-width:899px){.row figure{order:-1}}
+
+/* scope / spec */
+.scope{background:var(--paper);border-block:1px solid var(--line)}
+.scope-grid{display:grid;gap:40px}
+@media (min-width:1080px){.scope-grid{grid-template-columns:minmax(0,4fr) minmax(0,8fr);column-gap:clamp(40px,5vw,96px);align-items:start}.scope-fig{position:sticky;top:112px}}
+.scope-fig{margin:0}
+.scope-fig img{width:100%;aspect-ratio:4/5;object-fit:cover}
+.scope-fig figcaption{font-size:13.5px;color:var(--muted);margin-top:12px}
+@media (max-width:1079px){.scope-fig{display:none}}
+.spec{width:100%;border-collapse:collapse;font-size:15.5px}
+.spec caption{text-align:left}
+.spec th,.spec td{text-align:left;vertical-align:top;padding:18px 20px 18px 0;border-bottom:1px solid var(--line)}
+.spec thead th{font-size:13px;font-weight:500;color:var(--muted);padding-top:0;padding-bottom:12px;border-bottom:1px solid var(--ink);letter-spacing:.01em}
+.spec tbody th{font-weight:500;font-size:17px;white-space:nowrap;width:22%}
+.spec td{color:var(--ink-2)}
+.spec td.doc{color:var(--muted);font-size:14.5px;width:27%;padding-right:0}
+@media (max-width:699px){
+  .spec thead{display:none}
+  .spec,.spec tbody,.spec tr,.spec th,.spec td{display:block;width:auto}
+  .spec tr{padding:18px 0;border-bottom:1px solid var(--line)}
+  .spec tr:first-child{border-top:1px solid var(--ink)}
+  .spec th,.spec td{border:0;padding:0}
+  .spec tbody th{margin-bottom:6px}
+  .spec td.doc{margin-top:8px;width:auto}
+  .spec td.doc::before{content:"Dokumenty: ";color:var(--ink-2)}
+}
+
+/* process - dimension line */
+.dim{position:relative;margin:0;padding:0;list-style:none;display:grid;gap:0}
+.dim li{position:relative;padding:0 0 30px 30px}
+.dim li::before{content:"";position:absolute;left:0;top:9px;width:13px;height:1px;background:var(--accent)}
+.dim::before{content:"";position:absolute;left:0;top:9px;bottom:30px;width:1px;background:var(--ink)}
+.dim h3{font-size:20px;letter-spacing:-.012em;margin-bottom:6px;line-height:1.2}
+.dim p{color:var(--muted);font-size:15.5px;max-width:34ch}
+@media (min-width:900px){
+  .dim{grid-template-columns:repeat(5,minmax(0,1fr));column-gap:clamp(20px,2.4vw,40px);padding-top:34px}
+  .dim::before{left:0;right:0;top:0;bottom:auto;height:1px;width:auto}
+  .dim::after{content:"";position:absolute;right:0;top:-4px;width:1px;height:9px;background:var(--ink)}
+  .dim li{padding:0 0 0 0}
+  .dim li::before{left:0;top:-38px;width:1px;height:17px}
+  .dim li:first-child::after{content:"";position:absolute;left:0;top:-38px;width:1px;height:9px;background:var(--ink)}
+}
+
+/* band */
+.band{margin:0}
+.band img{width:100%;aspect-ratio:4/3;object-fit:cover}
+@media (min-width:768px){.band img{aspect-ratio:2.33/1}}
+
+/* contact */
+.contact-grid{display:grid;gap:56px}
+@media (min-width:1024px){.contact-grid{grid-template-columns:minmax(0,7fr) minmax(0,5fr);column-gap:clamp(48px,6vw,120px);align-items:start}}
+.contact h2{font-size:clamp(30px,3.4vw,50px);margin-bottom:18px}
+.contact .intro{color:var(--ink-2);max-width:50ch;margin-bottom:36px}
+form{display:grid;gap:18px 24px}
+@media (min-width:640px){form{grid-template-columns:1fr 1fr}.f-wide{grid-column:1/-1}}
+label{display:grid;gap:7px;align-content:start;font-size:14px;color:var(--ink-2);font-weight:500}
+label i{font-style:normal;font-weight:400;color:var(--muted)}
+input,select,textarea{width:100%;font:400 16px/1.4 var(--f);color:var(--ink);background:var(--paper);border:1px solid var(--line-2);border-radius:2px;padding:12px 14px;min-height:50px;transition:border-color .2s}
+textarea{min-height:132px;resize:vertical}
+select{appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' fill='none' stroke='%2313202d' stroke-width='1.5'%3E%3Cpath d='M1 1.5l5 5 5-5'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 14px center;padding-right:38px}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--ink)}
+.consent{display:flex;gap:12px;align-items:flex-start;font-weight:400;font-size:13.5px;color:var(--muted);line-height:1.5}
+.consent input{width:18px;height:18px;min-height:0;margin:2px 0 0;flex:none;accent-color:var(--ink)}
+.f-send{display:flex;flex-wrap:wrap;gap:16px 24px;align-items:center}
+.f-note{font-size:14px;color:var(--muted)}
+.f-ok{display:none;font-size:15px;color:var(--ink);border-left:2px solid var(--accent);padding:4px 0 4px 14px}
+.f-ok.on{display:block}
+
+/* title block */
+.tblock{border:1px solid var(--ink);background:var(--paper);font-size:15px}
+.tb-head{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:18px 20px;border-bottom:1px solid var(--ink)}
+.tb-head b{font-weight:600;font-size:16.5px;letter-spacing:-.01em;line-height:1.25}
+.tb-head svg{width:34px;height:34px;flex:none}
+.tblock dl{margin:0;display:grid;grid-template-columns:auto 1fr}
+.tblock dt,.tblock dd{margin:0;padding:12px 20px;border-bottom:1px solid var(--line)}
+.tblock dt{color:var(--muted);font-size:13.5px;padding-right:12px;border-right:1px solid var(--line)}
+.tblock dd{overflow-wrap:break-word}
+@media (max-width:420px){.tblock dt,.tblock dd{padding:12px 14px}.tblock{font-size:14.5px}}
+.tblock dd a{text-decoration:none;border-bottom:1px solid var(--line-2)}
+.tblock dd a:hover{border-color:var(--ink)}
+.tblock .ph{color:var(--muted)}
+.tblock dl > :nth-last-child(-n+2){border-bottom:0}
+.tb-foot{display:grid;grid-template-columns:1fr 1fr;border-top:1px solid var(--ink);font-size:13px;color:var(--muted)}
+.tb-foot div{padding:10px 20px}
+.tb-foot div+div{border-left:1px solid var(--line)}
+.tb-foot b{display:block;font-weight:500;color:var(--ink);font-size:14.5px}
+
+/* footer */
+.ftr{border-top:1px solid var(--line);padding:44px 0 36px;font-size:14px;color:var(--muted)}
+.ftr-top{display:grid;gap:24px;margin-bottom:36px}
+@media (min-width:900px){.ftr-top{grid-template-columns:1fr auto;align-items:start}}
+.ftr nav{display:flex;flex-wrap:wrap;gap:10px 28px}
+.ftr nav a{text-decoration:none;color:var(--ink-2)}
+.ftr nav a:hover{color:var(--ink);text-decoration:underline;text-underline-offset:4px}
+.ftr-bot{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px 32px;padding-top:20px;border-top:1px solid var(--line)}
+.ftr-bot a{color:var(--ink-2)}
+
+/* sticky mobile bar */
+.mbar{position:fixed;left:0;right:0;bottom:0;z-index:30;display:flex;gap:10px;padding:10px 16px calc(10px + env(safe-area-inset-bottom));background:rgba(245,243,238,.96);border-top:1px solid var(--line);transform:translateY(110%);transition:transform .35s cubic-bezier(.2,.7,.2,1)}
+.mbar.on{transform:none}
+.mbar .btn{flex:1;height:48px}
+.mbar .ic{flex:none;width:48px;height:48px;display:grid;place-items:center;border:1px solid var(--line-2);border-radius:2px;background:var(--paper);color:var(--ink)}
+.mbar .ic svg{width:20px;height:20px}
+@media (min-width:900px){.mbar{display:none}}
+
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+
+<header class="hdr" id="top">
+  <div class="wrap">
+    <a class="brand" href="#top">
+      <svg viewBox="0 0 30 30" aria-hidden="true"><rect width="30" height="30" fill="#13202d"/><rect x="6" y="18" width="18" height="2.5" fill="#b8893a"/></svg>
+      <span><b>Zimmermann &amp; Bauman</b><small>Generalne wykonawstwo</small></span>
+    </a>
+    <nav class="nav" aria-label="Menu główne">
+      <a href="#co-budujemy">Co budujemy</a>
+      <a href="#zakres">Zakres prac</a>
+      <a href="#wspolpraca">Współpraca</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+    <a class="btn btn-sm hdr-cta" href="#kontakt">Zapytaj o wycenę</a>
+    <a class="hdr-m" href="#kontakt">Kontakt</a>
+  </div>
+</header>
+
+<main>
+  <section class="hero" aria-labelledby="h1">
+    <div class="wrap">
+      <div class="hero-top">
+        <h1 id="h1">Generalne wykonawstwo budynków mieszkalnych i&nbsp;użytkowych</h1>
+        <div class="hero-side">
+          <p class="hero-lead">Warszawska spółka budowlana. Przejmujemy całą budowę - kosztorys, harmonogram, ekipy, dostawy i&nbsp;odbiory - w&nbsp;ramach jednej umowy.</p>
+          <div class="hero-act" id="hero-cta">
+            <a class="btn" href="#kontakt">Zapytaj o wycenę <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M1 8h13M9 3l5 5-5 5"/></svg></a>
+            <a class="lnk" href="mailto:zimmermann.bauman@gmail.com"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><rect x="2" y="4" width="16" height="12" rx="1"/><path d="M2.5 5l7.5 6 7.5-6"/></svg>zimmermann.bauman@gmail.com</a>
+          </div>
+        </div>
+      </div>
+
+      <figure class="hero-media" style="margin-left:0;margin-right:0;margin-bottom:0">
+        <picture>
+          <source media="(max-width: 767px)" type="image/avif" srcset="img/hero-m-800.avif 800w, img/hero-m-1200.avif 1200w" sizes="100vw">
+          <source media="(max-width: 767px)" type="image/webp" srcset="img/hero-m-800.webp 800w, img/hero-m-1200.webp 1200w" sizes="100vw">
+          <source type="image/avif" srcset="img/hero-1200.avif 1200w, img/hero-1800.avif 1800w, img/hero-2400.avif 2400w" sizes="(min-width: 1760px) 1600px, 92vw">
+          <img src="img/hero-1800.webp" srcset="img/hero-1200.webp 1200w, img/hero-1800.webp 1800w, img/hero-2400.webp 2400w" sizes="(min-width: 1760px) 1600px, 92vw" width="2400" height="1090" alt="Nowoczesny budynek z ceglanymi lamelami na elewacji w dziennym świetle" fetchpriority="high" decoding="async">
+        </picture>
+      </figure>
+      <div class="facts">
+        <ul>
+          <li>Generalne wykonawstwo</li>
+          <li>Warszawa i Mazowsze</li>
+          <li>Budynki mieszkalne i niemieszkalne</li>
+        </ul>
+        <span class="krs">KRS 0001185780</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" aria-labelledby="why-h">
+    <div class="wrap why">
+      <h2 id="why-h">Dlaczego jeden wykonawca</h2>
+      <div>
+        <p class="why-main">Inwestor podpisuje jedną umowę i ma jednego rozmówcę. To my koordynujemy branże, podwykonawców i dostawy, pilnujemy terminów i budżetu, a za jakość robót odpowiadamy sami - nie przerzucamy jej między ekipami.</p>
+        <div class="why-sub">
+          <p>Przed podpisaniem umowy przygotowujemy kosztorys i harmonogram na podstawie projektu. Od początku wiadomo, co jest w cenie i w jakiej kolejności powstaje budynek.</p>
+          <p>Każda zmiana zakresu jest wyceniana i potwierdzana na piśmie, zanim trafi na budowę. Rozliczamy się etapami, po odbiorach częściowych.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" id="co-budujemy" aria-labelledby="cb-h" style="padding-top:0">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2 id="cb-h">Co budujemy</h2>
+        <p>Budynki mieszkalne i niemieszkalne - od stanu zero do wykończenia albo do uzgodnionego etapu.</p>
+      </div>
+      <div class="rows">
+        <article class="row">
+          <h3>Domy jednorodzinne</h3>
+          <div>
+            <p>Domy wolnostojące i bliźniacze w technologii murowanej. Budujemy pod klucz albo do wybranego stanu, zgodnie z projektem i pozwoleniem.</p>
+            <ul><li>stan surowy otwarty i zamknięty</li><li>instalacje i wykończenie</li><li>przyłącza i zagospodarowanie działki</li></ul>
+          </div>
+          <figure>
+            <picture>
+              <source type="image/avif" srcset="img/domy-640.avif 640w, img/domy-1000.avif 1000w" sizes="(min-width: 900px) 40vw, 92vw">
+              <img src="img/domy-1000.webp" srcset="img/domy-640.webp 640w, img/domy-1000.webp 1000w" sizes="(min-width: 900px) 40vw, 92vw" width="1000" height="750" loading="lazy" decoding="async" alt="Nowoczesny biały dom jednorodzinny z garażem i podjazdem">
+            </picture>
+          </figure>
+        </article>
+        <article class="row">
+          <h3>Budynki wielorodzinne</h3>
+          <div>
+            <p>Budynki mieszkalne dla inwestorów prywatnych i deweloperów, w konstrukcji żelbetowej lub murowanej, z garażem podziemnym lub bez.</p>
+            <ul><li>konstrukcja żelbetowa monolityczna</li><li>elewacje, stolarka, części wspólne</li><li>koordynacja branż i odbiory</li></ul>
+          </div>
+          <figure>
+            <picture>
+              <source type="image/avif" srcset="img/wielorodzinne-640.avif 640w, img/wielorodzinne-1000.avif 1000w" sizes="(min-width: 900px) 40vw, 92vw">
+              <img src="img/wielorodzinne-1000.webp" srcset="img/wielorodzinne-640.webp 640w, img/wielorodzinne-1000.webp 1000w" sizes="(min-width: 900px) 40vw, 92vw" width="1000" height="750" loading="lazy" decoding="async" alt="Jasny budynek wielorodzinny z balkonami">
+            </picture>
+          </figure>
+        </article>
+        <article class="row">
+          <h3>Obiekty niemieszkalne</h3>
+          <div>
+            <p>Budynki usługowe, biurowe i magazynowe oraz hale - razem z przygotowaniem terenu, infrastrukturą i układem drogowym na działce.</p>
+            <ul><li>budynki usługowe i biurowe</li><li>hale i magazyny</li><li>drogi wewnętrzne, parkingi, ogrodzenia</li></ul>
+          </div>
+          <figure>
+            <picture>
+              <source type="image/avif" srcset="img/niemieszkalne-640.avif 640w, img/niemieszkalne-1000.avif 1000w" sizes="(min-width: 900px) 40vw, 92vw">
+              <img src="img/niemieszkalne-1000.webp" srcset="img/niemieszkalne-640.webp 640w, img/niemieszkalne-1000.webp 1000w" sizes="(min-width: 900px) 40vw, 92vw" width="1000" height="750" loading="lazy" decoding="async" alt="Elewacja budynku biurowego z aluminium i szkła">
+            </picture>
+          </figure>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec scope" id="zakres" aria-labelledby="zk-h">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2 id="zk-h">Zakres prac</h2>
+        <p>Wykonujemy pełen zakres albo wybrane etapy. Przy każdym etapie powstają dokumenty, które inwestor dostaje do ręki.</p>
+      </div>
+      <div class="scope-grid">
+        <figure class="scope-fig">
+          <picture>
+            <source type="image/avif" srcset="img/szalunki-600.avif 600w, img/szalunki-900.avif 900w" sizes="30vw">
+            <img src="img/szalunki-900.webp" srcset="img/szalunki-600.webp 600w, img/szalunki-900.webp 900w" sizes="30vw" width="900" height="1125" loading="lazy" decoding="async" alt="Szalunki słupów i zbrojenie na budowie">
+          </picture>
+          <figcaption>Szalunki systemowe i zbrojenie słupów - etap stanu surowego.</figcaption>
+        </figure>
+        <table class="spec">
+          <caption class="sr">Etapy robót, zakres i dokumenty</caption>
+          <thead><tr><th scope="col">Etap</th><th scope="col">Co obejmuje</th><th scope="col">Dokumenty</th></tr></thead>
+          <tbody>
+            <tr><th scope="row">Przygotowanie</th><td>Analiza projektu, przedmiar i kosztorys, harmonogram robót, organizacja placu budowy.</td><td class="doc">kosztorys, harmonogram, umowa</td></tr>
+            <tr><th scope="row">Stan zero</th><td>Roboty ziemne, fundamenty, izolacje przeciwwilgociowe, kanalizacja pod posadzką.</td><td class="doc">dziennik budowy, odbiór zbrojenia</td></tr>
+            <tr><th scope="row">Stan surowy</th><td>Ściany, stropy, schody, więźba lub stropodach, pokrycie dachu, stolarka zewnętrzna.</td><td class="doc">protokoły odbiorów częściowych</td></tr>
+            <tr><th scope="row">Instalacje</th><td>Wod-kan, c.o., elektryka, wentylacja - wykonywane przez podwykonawców pod naszą koordynacją.</td><td class="doc">protokoły prób i pomiarów</td></tr>
+            <tr><th scope="row">Wykończenie</th><td>Tynki, wylewki, elewacja, okładziny i prace wykończeniowe wnętrz.</td><td class="doc">protokoły odbiorów częściowych</td></tr>
+            <tr><th scope="row">Teren</th><td>Przyłącza, drogi wewnętrzne, parkingi, ogrodzenie, zieleń.</td><td class="doc">inwentaryzacja powykonawcza</td></tr>
+            <tr><th scope="row">Odbiór</th><td>Odbiór końcowy, usunięcie usterek, przekazanie budynku.</td><td class="doc">dokumentacja powykonawcza, protokół odbioru</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" id="wspolpraca" aria-labelledby="ws-h">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2 id="ws-h">Od zapytania do przekazania kluczy</h2>
+        <p>Pięć etapów, każdy zamknięty dokumentem. Na każdym wiadomo, kto i za co odpowiada.</p>
+      </div>
+      <ol class="dim">
+        <li><h3>Zapytanie</h3><p>Opisują Państwo inwestycję i przesyłają projekt albo koncepcję.</p></li>
+        <li><h3>Wycena</h3><p>Przygotowujemy kosztorys i wstępny harmonogram robót.</p></li>
+        <li><h3>Umowa</h3><p>Ustalamy zakres, terminy i rozliczenie etapami.</p></li>
+        <li><h3>Budowa</h3><p>Prowadzimy roboty, raportujemy postęp i zgłaszamy odbiory częściowe.</p></li>
+        <li><h3>Odbiór</h3><p>Odbiór końcowy, dokumentacja powykonawcza, przekazanie budynku.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <figure class="band">
+    <picture>
+      <source media="(max-width: 767px)" type="image/avif" srcset="img/fundament-1200.avif" >
+      <source type="image/avif" srcset="img/fundament-1200.avif 1200w, img/fundament-1920.avif 1920w, img/fundament-2400.avif 2400w" sizes="100vw">
+      <img src="img/fundament-1920.webp" srcset="img/fundament-1200.webp 1200w, img/fundament-1920.webp 1920w, img/fundament-2400.webp 2400w" sizes="100vw" width="2400" height="1030" loading="lazy" decoding="async" alt="Zbrojenie płyty fundamentowej w wykopie zabezpieczonym ścianką szczelną">
+    </picture>
+  </figure>
+
+  <section class="sec contact" id="kontakt" aria-labelledby="kt-h">
+    <div class="wrap contact-grid">
+      <div>
+        <h2 id="kt-h">Zapytanie o wycenę</h2>
+        <p class="intro">Prosimy opisać inwestycję: rodzaj budynku, lokalizację, etap projektu i planowany termin. Odpowiadamy z wyceną wstępną albo z listą pytań.</p>
+        <form id="form" novalidate>
+          <label><span>Imię i nazwisko</span><input name="n" autocomplete="name" required></label>
+          <label><span>Firma <i>(opcjonalnie)</i></span><input name="c" autocomplete="organization"></label>
+          <label><span>E-mail</span><input name="e" type="email" autocomplete="email" required></label>
+          <label><span>Telefon</span><input name="t" type="tel" autocomplete="tel" inputmode="tel"></label>
+          <label><span>Rodzaj inwestycji</span>
+            <select name="r"><option>Dom jednorodzinny</option><option>Budynek wielorodzinny</option><option>Obiekt usługowy lub biurowy</option><option>Hala lub magazyn</option><option>Inny</option></select>
+          </label>
+          <label><span>Lokalizacja</span><input name="l" placeholder="np. Warszawa, Wilanów"></label>
+          <label class="f-wide"><span>Opis inwestycji</span><textarea name="o" placeholder="Powierzchnia, etap projektu, zakres prac, planowany termin rozpoczęcia"></textarea></label>
+          <label class="consent f-wide"><input type="checkbox" required><span>Wyrażam zgodę na kontakt w sprawie zapytania i przetwarzanie podanych danych w tym celu.</span></label>
+          <div class="f-send f-wide">
+            <button class="btn" type="submit">Wyślij zapytanie <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M1 8h13M9 3l5 5-5 5"/></svg></button>
+            <span class="f-note">albo napisz: zimmermann.bauman@gmail.com</span>
+          </div>
+          <p class="f-ok f-wide" id="f-ok" role="status">To podgląd strony - formularz zacznie wysyłać zapytania po wdrożeniu.</p>
+        </form>
+      </div>
+
+      <aside class="tblock" aria-label="Dane firmy">
+        <div class="tb-head">
+          <b>ZIMMERMANN &amp; BAUMAN<br>sp. z o.o.</b>
+          <svg viewBox="0 0 30 30" aria-hidden="true"><rect width="30" height="30" fill="#13202d"/><rect x="6" y="18" width="18" height="2.5" fill="#b8893a"/></svg>
+        </div>
+        <dl>
+          <dt>Siedziba</dt><dd>Al. „Solidarności” 117 lok. 315<br>00-140 Warszawa</dd>
+          <dt>E-mail</dt><dd><a href="mailto:zimmermann.bauman@gmail.com">zimmermann.bauman@<wbr>gmail.com</a></dd>
+          <dt>Telefon</dt><dd class="ph">tu Państwa numer</dd>
+          <dt>KRS</dt><dd>0001185780</dd>
+          <dt>NIP</dt><dd>5253055057</dd>
+          <dt>REGON</dt><dd>542312671</dd>
+        </dl>
+        <div class="tb-foot">
+          <div>Zakres<b>PKD 41.00.A, 41.00.B</b></div>
+          <div>Obszar<b>Warszawa i Mazowsze</b></div>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="ftr">
+  <div class="wrap">
+    <div class="ftr-top">
+      <a class="brand" href="#top">
+        <svg viewBox="0 0 30 30" aria-hidden="true"><rect width="30" height="30" fill="#13202d"/><rect x="6" y="18" width="18" height="2.5" fill="#b8893a"/></svg>
+        <span><b style="color:var(--ink)">Zimmermann &amp; Bauman sp. z o.o.</b><small>Al. „Solidarności” 117 lok. 315, 00-140 Warszawa</small></span>
+      </a>
+      <nav aria-label="Stopka">
+        <a href="#co-budujemy">Co budujemy</a>
+        <a href="#zakres">Zakres prac</a>
+        <a href="#wspolpraca">Współpraca</a>
+        <a href="#kontakt">Kontakt</a>
+      </nav>
+    </div>
+    <div class="ftr-bot">
+      <span>KRS 0001185780 · NIP 5253055057 · REGON 542312671</span>
+      <span>Zdjęcia poglądowe: Unsplash · wykonanie: <a href="https://wylinka.pl" rel="noopener">Wylinka</a></span>
+    </div>
+  </div>
+</footer>
+
+<div class="mbar" id="mbar" aria-hidden="true">
+  <a class="btn" href="#kontakt" tabindex="-1">Zapytaj o wycenę</a>
+  <a class="ic" href="mailto:zimmermann.bauman@gmail.com" aria-label="Napisz e-mail" tabindex="-1"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><rect x="2" y="4" width="16" height="12" rx="1"/><path d="M2.5 5l7.5 6 7.5-6"/></svg></a>
+</div>
+
+<script>
+(function(){
+  var h=document.querySelector('.hdr'),bar=document.getElementById('mbar'),cta=document.getElementById('hero-cta'),kt=document.getElementById('kontakt');
+  var pastHero=false,inContact=false;
+  function upd(){var on=pastHero&&!inContact;bar.classList.toggle('on',on);bar.setAttribute('aria-hidden',on?'false':'true');bar.querySelectorAll('a').forEach(function(a){a.tabIndex=on?0:-1})}
+  if('IntersectionObserver' in window){
+    new IntersectionObserver(function(e){pastHero=!e[0].isIntersecting&&e[0].boundingClientRect.top<0;upd()}).observe(cta);
+    new IntersectionObserver(function(e){inContact=e[0].isIntersecting;upd()},{rootMargin:'0px 0px -30% 0px'}).observe(kt);
+  }
+  var t=false;addEventListener('scroll',function(){if(t)return;t=true;requestAnimationFrame(function(){h.classList.toggle('is-scrolled',scrollY>8);t=false})},{passive:true});
+  var f=document.getElementById('form');
+  f.addEventListener('submit',function(ev){ev.preventDefault();document.getElementById('f-ok').classList.add('on')});
+})();
+</script>
+</body>
+</html>
