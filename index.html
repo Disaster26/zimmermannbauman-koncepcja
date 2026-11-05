@@ -10,9 +10,9 @@
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23121417'/%3E%3Cpath d='M9 9.5h14L9 22.5h14' fill='none' stroke='%23fff' stroke-width='3'/%3E%3Crect y='28' width='32' height='4' fill='%23F5B700'/%3E%3C/svg%3E">
 <link rel="preload" href="fonts/archivo-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="fonts/archivo-latin-ext.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" as="image" type="image/avif" imagesrcset="img/v2-hero-m-600.avif 600w, img/v2-hero-m-900.avif 900w" imagesizes="100vw" media="(max-width: 759px)" fetchpriority="high">
-<link rel="preload" as="image" type="image/avif" imagesrcset="img/v2-hero-1280.avif 1280w, img/v2-hero-1920.avif 1920w" imagesizes="100vw" media="(min-width: 760px)" fetchpriority="high">
-<link rel="stylesheet" href="style.css?v=2">
+<link rel="preload" as="image" type="image/avif" imagesrcset="img/v3-hero-m-600.avif 600w, img/v3-hero-m-900.avif 900w" imagesizes="100vw" media="(max-width: 959px)" fetchpriority="high">
+<link rel="preload" as="image" type="image/avif" imagesrcset="img/v3-hero-800.avif 800w, img/v3-hero-1200.avif 1200w" imagesizes="55vw" media="(min-width: 960px)" fetchpriority="high">
+<link rel="stylesheet" href="style.css?v=3">
 </head>
 <body>
 <!-- Wizualizacja robocza (koncepcja v2) strony Zimmermann & Bauman sp. z o.o. Dane firmy: odpis aktualny KRS 0001185780. Zakres prac opisany na podstawie PKD, do potwierdzenia z klientem. Zdjęcia poglądowe z Unsplash. Poprzednia wersja: /v1/ -->
@@ -40,20 +40,20 @@
 
 <main>
   <section class="hero">
-    <picture class="hero-bg">
-      <source type="image/avif" media="(max-width: 759px)" srcset="img/v2-hero-m-600.avif 600w, img/v2-hero-m-900.avif 900w" sizes="100vw">
-      <source type="image/webp" media="(max-width: 759px)" srcset="img/v2-hero-m-600.webp 600w, img/v2-hero-m-900.webp 900w" sizes="100vw">
-      <source type="image/avif" srcset="img/v2-hero-1280.avif 1280w, img/v2-hero-1920.avif 1920w" sizes="100vw">
-      <img src="img/v2-hero-1920.webp" srcset="img/v2-hero-1280.webp 1280w, img/v2-hero-1920.webp 1920w" sizes="100vw" width="1920" height="1080" alt="Oświetlony nocą budynek w trakcie budowy, nad nim żurawie" fetchpriority="high" decoding="async">
+    <picture class="hero-foto">
+      <source type="image/avif" media="(max-width: 959px)" srcset="img/v3-hero-m-600.avif 600w, img/v3-hero-m-900.avif 900w" sizes="100vw">
+      <source type="image/webp" media="(max-width: 959px)" srcset="img/v3-hero-m-600.webp 600w, img/v3-hero-m-900.webp 900w" sizes="100vw">
+      <source type="image/avif" srcset="img/v3-hero-800.avif 800w, img/v3-hero-1200.avif 1200w" sizes="55vw">
+      <img src="img/v3-hero-1200.webp" srcset="img/v3-hero-800.webp 800w, img/v3-hero-1200.webp 1200w" sizes="55vw" width="1200" height="1333" alt="Wielokondygnacyjny budynek mieszkalny w trakcie budowy na tle błękitnego nieba" fetchpriority="high" decoding="async">
     </picture>
-    <div class="wrap hero-in">
+    <div class="hero-panel"><div class="hero-in">
       <h1>Budujemy&nbsp;od fundamentu po&nbsp;odbiór</h1>
       <p class="lead">Generalne wykonawstwo domów, budynków wielorodzinnych i&nbsp;obiektów niemieszkalnych. Spółka z&nbsp;Warszawy, jeden wykonawca odpowiedzialny za całą budowę.</p>
       <div class="hero-cta" id="heroCta">
         <a class="btn" href="#kontakt">Zapytaj o wycenę <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
         <a class="hero-mail" href="mailto:zimmermann.bauman@gmail.com"><svg aria-hidden="true"><use href="#i-mail"/></svg>zimmermann.bauman@gmail.com</a>
       </div>
-    </div>
+    </div></div>
   </section>
 
   <section class="sec sec-jasna" id="budujemy">
@@ -114,8 +114,8 @@
 
   <div class="pas">
     <picture>
-      <source type="image/avif" srcset="img/v2-dzwigi-800.avif 800w, img/v2-dzwigi-1600.avif 1600w" sizes="100vw">
-      <img src="img/v2-dzwigi-1600.webp" srcset="img/v2-dzwigi-800.webp 800w, img/v2-dzwigi-1600.webp 1600w" sizes="100vw" width="1600" height="685" alt="Żurawie wieżowe na tle nieba o zmierzchu" loading="lazy" decoding="async">
+      <source type="image/avif" srcset="img/v3-dzwigi-800.avif 800w, img/v3-dzwigi-1600.avif 1600w" sizes="100vw">
+      <img src="img/v3-dzwigi-1600.webp" srcset="img/v3-dzwigi-800.webp 800w, img/v3-dzwigi-1600.webp 1600w" sizes="100vw" width="1600" height="685" alt="Żurawie wieżowe nad budowanym budynkiem" loading="lazy" decoding="async">
     </picture>
   </div>
 
@@ -135,7 +135,7 @@
     </div>
   </section>
 
-  <section class="sec sec-kontakt" id="kontakt">
+  <section class="sec sec-jasna sec-kontakt" id="kontakt">
     <div class="wrap kontakt">
       <div class="kontakt-form">
         <h2>Zapytanie o wycenę</h2>
@@ -211,6 +211,6 @@
   <a class="btn" href="#kontakt" tabindex="-1">Zapytaj o wycenę</a>
 </div>
 
-<script src="app.js?v=2" defer></script>
+<script src="app.js?v=3" defer></script>
 </body>
 </html>
